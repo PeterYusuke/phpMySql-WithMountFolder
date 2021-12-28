@@ -1,0 +1,2 @@
+# phpMySql-WithMountFolder
+PHPプロジェクトをローカルで開発する基本的なDockerプロジェクト
