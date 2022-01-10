@@ -1,9 +1,9 @@
 FROM php:fpm
 COPY php.ini /usr/local/etc/php/
 
-# vim install
-RUN apt-get update
-RUN apt-get install -y vim
+# Xdebug install
+RUN pecl install xdebug \
+    && docker-php-ext-enable xdebug
 
 # php module
 RUN apt-get update && apt-get install -y \
