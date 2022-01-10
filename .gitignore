@@ -1,0 +1,6 @@
+# mysqlファイル
+phpWithMySQL/mysql/data/*
+phpWithMySQL/mysql/log/*
+
+# phpログファイル
+phpWithMySQL/php/log/
